@@ -12,3 +12,15 @@ git add -A
 削除の作業をステージングエリアに追加する。
 
 git rm <filename>
+
+■ git log
+--oneline
+--graph
+-- <filename>
+--follow <filename> ファイル名の変更も考慮して特定ファイルの情報を表示する。
+
+git show <commitID> commitIDは適当に省略してもよい。
+
+
+
+
