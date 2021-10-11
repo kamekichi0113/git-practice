@@ -1,2 +1,14 @@
 git ls-files
 トラックされているファイルを表示する。
+
+■ git mv
+ファイル名の変更がステージングエリアに追加される。
+
+■ git mvの代わりにmvでリネームしたとき
+mv namechanged.txt namechanged2.txt
+namechanged.txtが削除される。
+
+git add -A
+削除の作業をステージングエリアに追加する。
+
+git rm <filename>
