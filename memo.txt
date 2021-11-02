@@ -24,3 +24,9 @@ git show <commitID> commitIDは適当に省略してもよい。
 
 
 
+■スクラッチでrepoを作成する。
+git init <repo-name>
+フォルダが作成される。
+
+■既存のファイルをgitリポにする。 
+git init
